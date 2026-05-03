@@ -33,7 +33,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-image: url("images/background-image.jpg");
-	background-size: contain;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 ol, ul {
@@ -2008,7 +2009,7 @@ input, select, textarea {
 
 	.wrapper {
 		/*background-image: url("images/background-image.jpg");*/
-		background-size: cover;
+		/* background-size: cover; */
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
